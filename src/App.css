@@ -1,0 +1,77 @@
+.App {
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+button {
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-weight: 900;
+	background-color: rgb(217, 226, 234);
+	border: none;
+	cursor: pointer;
+}
+
+.active {
+	background-color: rgb(128, 185, 235);
+}
+
+.done {
+	opacity: 0.5;
+}
+
+.flex {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+.text {
+	color: red;
+}
+
+.rubber {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 5px;
+}
+
+input {
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-weight: 900;
+	background-color: rgb(244, 246, 248);
+	border: 1px solid #a29e9e;
+}
+
+input:focus-visible {
+	outline: none;
+	border: 1px solid #0dc9e2;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+}
+
+.error {
+	border: red 1px solid;
+}
+
+.error-message {
+	color: red;
+}
+
+.active-filter {
+	background-color: aquamarine;
+}
+
+.is-done {
+	opacity: 0.5;
+}
